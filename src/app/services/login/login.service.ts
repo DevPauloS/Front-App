@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { loginResponse } from '../types/login-response.type';
 import {tap} from 'rxjs';
+import { loginResponse } from '../../types/login-response.type copy';
 
 @Injectable({
   providedIn: 'root'
